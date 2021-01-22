@@ -66,7 +66,7 @@ Set initial `/` route for landing page
 
 ```rb
 # default path
-root 'photos/home'
+root 'photos#home'
 ```
 
 Create a route that maps a URL to the controller action
