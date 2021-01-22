@@ -62,6 +62,13 @@ Reference: http://guides.rubyonrails.org/action_controller_overview.html
 
 ### Routes
 
+Set initial `/` route for landing page
+
+```rb
+# default path
+root 'photos/home'
+```
+
 Create a route that maps a URL to the controller action
 
 ```rb
