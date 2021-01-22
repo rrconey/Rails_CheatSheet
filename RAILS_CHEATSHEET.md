@@ -2,6 +2,16 @@
 
 ### Architecture
 
+1. When you type http://localhost:8000/welcome, the browser makes a request for the URL /welcome.
+2. The request hits the Rails router.
+3. The router maps the URL to a controller action to handle the request.
+4. The controller action recieves the request, and asks the model to fetch data from the database.
+5. The model returns data to the controller action.
+6. The controller action passes the data on to the view.
+7. The view renders the page as HTML.
+8. The controller sends the HTML back to the browser.
+
+
 <img src="https://github.com/rrconey/Rails_CheatSheet/blob/main/Screen%20Shot%202021-01-22%20at%208.20.54%20AM.png">
 
 ### Create a new application
