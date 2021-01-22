@@ -42,6 +42,24 @@ Start the Rails server on specifi port
 $ rails s -p 4001
 ```
 
+### Controllers
+
+Generate a new controller 
+
+**Note:** Name controllers in Pascal case and pluralize
+
+```
+$ rails g controller Photos
+```
+
+Generate a new controller with default actions, routes and views
+
+```
+$ rails g controller Photos index show
+```
+
+Reference: http://guides.rubyonrails.org/action_controller_overview.html
+
 ### Routes
 
 Create a route that maps a URL to the controller action
@@ -100,24 +118,6 @@ get 'photos/about', to: 'photos#about'
 ```
 
 Reference: http://guides.rubyonrails.org/routing.html
-
-### Controllers
-
-Generate a new controller 
-
-**Note:** Name controllers in Pascal case and pluralize
-
-```
-$ rails g controller Photos
-```
-
-Generate a new controller with default actions, routes and views
-
-```
-$ rails g controller Photos index show
-```
-
-Reference: http://guides.rubyonrails.org/action_controller_overview.html
 
 ### Models
 
