@@ -2,7 +2,7 @@
 
 ### Architecture
 
-<img src="https://raw.githubusercontent.com/mdang/resources/master/ruby/rails/rails_architecture.png">
+<img src="https://github.com/rrconey/Rails_CheatSheet/blob/main/Screen%20Shot%202021-01-22%20at%208.20.54%20AM.png">
 
 ### Create a new application
 
