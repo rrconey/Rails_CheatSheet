@@ -36,6 +36,12 @@ Start the Rails server
 $ rails s
 ```
 
+Start the Rails server on specifi port
+
+```
+$ rails s -p 4001
+```
+
 ### Routes
 
 Create a route that maps a URL to the controller action
