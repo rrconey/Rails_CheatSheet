@@ -18,10 +18,9 @@ Generate a new Rails app w/ Postgres support
 $ rails new my_app --database=postgresql
 ```
 
-Install software packages needed by the new Rails app
+Install software packages needed by the new Rails app in the root directory
 
 ```
-$ cd my_app
 $ bundle install
 ```
 
