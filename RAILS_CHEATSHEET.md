@@ -246,11 +246,12 @@ $ rake db:migrate
 
 ### Rake
 
-View all the routes in an application
+View all the routes in an application (deprecated in rails 6.1)
 
 ```
-$ rake routes
+$ rake routes OR rails routes
 ```
+
 
 Seed the database with sample data from `db/seeds.rb`
 
