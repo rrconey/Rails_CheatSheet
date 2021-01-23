@@ -396,7 +396,7 @@ $ irb(main):001:0> Users.all
 Exit
 
 ```
-$ cmd + d
+$ ctrl + d
 ```
 
 
