@@ -379,4 +379,26 @@ Create a form with a custom action and method
 </form>
 ```
 
+### Rails Console or irb interactive terminal
+
+Start rails console
+
+```
+$ rails console
+```
+
+Query all item(s) in database
+
+```
+$ irb(main):001:0> Users.all
+```
+
+Exit
+
+```
+$ cmd + d
+```
+
+
+
 Reference: [http://guides.rubyonrails.org/form_helpers.html](http://guides.rubyonrails.org/form_helpers.html)
