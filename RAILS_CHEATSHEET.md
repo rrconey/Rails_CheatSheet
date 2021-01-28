@@ -252,6 +252,10 @@ View all the routes in an application (deprecated in rails 6.1)
 $ rails routes
 ```
 
+View specific routes for specific Model
+
+```
+$ rails routes | grep Photo
 
 Seed the database with sample data from `db/seeds.rb`
 
@@ -378,6 +382,18 @@ Create a form with a custom action and method
   <input name="commit" type="submit" value="Search" />
 </form>
 ```
+
+### Model Validation
+
+Validate content meets requirements  [Validates](https://guides.rubyonrails.org/active_record_validations.html)   
+
+```rb
+class Book < ApplicationRecord
+    validates :author, presence: true, length: { minimum: 3}
+    validates :title, presence: true, length: { minimum: 3}
+end
+```
+
 
 ### API
 
