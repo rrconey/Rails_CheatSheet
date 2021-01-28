@@ -37,7 +37,7 @@ $ bundle install
 Initialize the database
 
 ```
-$ rake db:create
+$ rails db:create
 ```
 
 Start the Rails server
@@ -119,10 +119,10 @@ Create resources for only certain actions
 
 ```rb
 # config/routes.rb
-resources :photos, :only => [:index]
+resources :photos, only: [:index, :create]
 
 # On the flip side, you can create a resource with exceptions 
-resources :photos, :except => [:new, :create, :edit, :update, :show, :destroy]
+resources :photos, except: [:new, :create, :edit, :update, :show, :destroy]
 ```
 
 Create a route to a static view, without an action in the controller
@@ -241,28 +241,28 @@ Scaffolding is great for prototypes but don't rely too heavily on it: http://sta
 
 ```
 $ rails g scaffold Photo path:string caption:text
-$ rake db:migrate
+$ rails db:migrate
 ```
 
-### Rake
+### Rails alias Rake
 
 View all the routes in an application (deprecated in rails 6.1)
 
 ```
-$ rake routes OR rails routes
+$ rails routes
 ```
 
 
 Seed the database with sample data from `db/seeds.rb`
 
 ```
-$ rake db:seed
+$ rails db:seed
 ```
 
 Run any pending migrations
 
 ```
-$ rake db:migrate
+$ rails db:migrate
 ```
 
 Rollback the last migration performed
@@ -270,7 +270,7 @@ Rollback the last migration performed
 **NOTE:** Be VERY careful with this command in production, it's destructive and you could potentially lose data. Make sure you absolutely understand what will happen when you run it 
 
 ```
-$ rake db:rollback
+$ rails db:rollback
 ```
 
 ### Path Helpers 
