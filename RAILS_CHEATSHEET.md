@@ -379,6 +379,19 @@ Create a form with a custom action and method
 </form>
 ```
 
+### API
+
+Working with JSON data
+
+```rb
+def index
+  render json: Book.all
+end
+```
+
+
+
+
 ### Rails Console or irb interactive terminal
 
 Start rails console
@@ -390,7 +403,13 @@ $ rails console
 Query all item(s) in database
 
 ```
-$ irb(main):001:0> Users.all
+$ irb(main):001:0> Book.all
+```
+
+Create item in db
+
+```
+$ irb(main):001:0> Book.create!(author: 'robert', title: 'how to make a million repos')
 ```
 
 Exit
