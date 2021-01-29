@@ -385,7 +385,7 @@ Create a form with a custom action and method
 
 ### Model Validation
 
-Validate content meets requirements  [Validates](https://guides.rubyonrails.org/active_record_validations.html)   
+[Validate](https://guides.rubyonrails.org/active_record_validations.html)    content meets requirements  
 
 ```rb
 class Book < ApplicationRecord
