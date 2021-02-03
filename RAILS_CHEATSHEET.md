@@ -391,6 +391,7 @@ Create a form with a custom action and method
 class Book < ApplicationRecord
     validates :author, presence: true, length: { minimum: 3}
     validates :title, presence: true, length: { minimum: 3}
+    validates :rating, numericality: { only_integer: true,  greater_than_or_equal_to: 1, less_than_or_equal_to: 5}
 end
 ```
 
