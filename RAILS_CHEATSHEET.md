@@ -414,7 +414,7 @@ end
 Start rails console
 
 ```
-$ rails console
+$ rails console --sandbox
 ```
 
 Query all item(s) in database
