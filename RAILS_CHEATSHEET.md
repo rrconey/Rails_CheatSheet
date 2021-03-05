@@ -435,6 +435,11 @@ Exit
 $ ctrl + d
 ```
 
+### View Helpers for Debugging
+
+1. debug
+2. to_yaml
+3. inspect
 
 
 Reference: [http://guides.rubyonrails.org/form_helpers.html](http://guides.rubyonrails.org/form_helpers.html)
