@@ -448,4 +448,7 @@ Reference: [Change rails version](https://www.aloucaslabs.com/miniposts/using-a-
 
 ```
 $ gem list rails --local
+$ gem install rails -v '5.2.3' -V --no-document
+
+rails _5.2.3_ new appname
 ```
