@@ -443,3 +443,9 @@ $ ctrl + d
 
 
 Reference: [http://guides.rubyonrails.org/form_helpers.html](http://guides.rubyonrails.org/form_helpers.html)
+
+Reference: [Change rails version](https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-when-you-generate-a-new-rails-app-with-rails-new-command)
+
+```
+$ gem list rails --local
+```
